@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <script src="jquery-3.4.1.js">
+
+    </script>
+    <script>
+       $(document).ready(function()
+       { 
+       
+       $("button.fadein").click(function(){
+          $("div").fadeIn('slow');
+  });
+  $("button.fadeout").click(function(){
+          $("div").fadeOut();
+  });
+  
+       }) ;
+    </script>
+</head>
+    <body>
+      <div style="background-color: rgb(158, 126, 118); width: 1350px; height: 100px;">
+
+      </div>
+      <div style="background-color: rgb(52, 46, 139);width: 1350px; height: 35px;">
+
+      </div>
+      <div  style="height:420px">
+<div style="float: left;background-color:rgb(81, 160, 45); width: 25%; height:100%;">
+
+</div>
+
+<div style="float: left;background-color: rgb(255, 0, 242);width: 50%; height: 100%; ">
+
+</div>
+<div style="float: left;background-color:tomato; width: 25%; height:100%;">
+
+</div>
+
+      </div> 
+      <div style="background-color:rgb(5, 2, 5); width: 1350px; height: 35px;">
+    </div>     
+    <button class="fadein">Fade_In</button>
+    <button class="fadeout">Fade_Out</button>
+    </body>
+</html>

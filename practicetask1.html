@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <script src="jquery-3.4.1.js">
+
+    </script>
+    <script>
+       $(document).ready(function()
+       { 
+       
+  $("button.toggle").click(function(){
+          $("div").fadeToggle('slow');
+  });
+  
+       }) ;
+    </script>
+</head>
+    <body>
+        <div style="border-style: solid; border-width: thin; height: 120px ;">
+        <h1>
+           Thin header 
+        </h1>
+    
+    
+    
+    </div>
+    <br>
+    <br>
+  
+  <div style="border-style: solid; border-width: thin;text-align: left ; height: 55px;">
+        <h2>
+            Small Thin Header 
+        </h2> 
+     </div>    
+       <button class="toggle">TOGGLE</button>
+            
+    </body>
+</html>

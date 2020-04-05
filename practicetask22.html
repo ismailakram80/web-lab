@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <script src="jquery-3.4.1.js">
+
+    </script>
+    <script>
+       $(document).ready(function()
+       { 
+       
+  $("button.hide").click(function(){
+          $("div").hide();
+  });
+  $("button.show").click(function(){
+          $("div").show();
+  });
+       }) ;
+    </script>
+</head>
+    <body>
+       <div>
+           <h1>an unorderded html</h1>
+           <ul>
+        <li>coffee</li>
+        <li>milk</li>
+        <li>tea</li>
+           </ul>
+       </div>
+       <div>
+        <h1>an orderded html</h1>
+        <ol>
+     <li>coffee</li>
+     <li>milk</li>
+     <li>tea</li>
+        </ol>
+    </div>
+    <button class="hide">hide</button>
+        <button class="show">show</button>      
+    </body>
+</html>
